@@ -27,7 +27,7 @@ int main() {
                 }
             }
         }
-        printf("\x1b[H")
+        printf("\x1b[H");
             for( k = 0; 1761 > k; k++)
                 putchar(k % 80 ? b[k] : 10);
             A += 0.04;
